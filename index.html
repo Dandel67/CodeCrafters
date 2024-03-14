@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <link rel="icon" href="img\Logo Codecrafters.png">
@@ -9,23 +8,26 @@
 </head>
 <body>
     <header>
+
         <a class="logo">
-            
             <img src="./img/logo Codecrafters.png" alt="Logo Codecrafters">
             <h2 class="nombre-compañia">Code<br>Crafters </h2> 
-        <br>
+
+            <br>
+
         </a>
         <div class="search-container">
             <form action="/buscar" method="get">
-            <input type="text" name="q" placeholder="Buscar " class="search-box">
-            <button type="button">
-                <img src="./img/buscar.png" alt="buscar" >
-            </button>
+                <input type="text" name="q" placeholder="Buscar " class="search-box">
+                <button type="submit"> <!-- Cambié el tipo de botón a "submit" -->
+                    <img src="./img/buscar.png" alt="buscar">
+                </button>
             </form>
         </div>
     </header>
 
     <nav class="navbar">
+        <!-- Menú de navegación -->
         <div class="dropdown">
             <button class="dropbtn">Productos</button>
             <div class="dropdown-content">
@@ -35,6 +37,14 @@
             </div>
         </div>
         
+        <div class="dropdown">
+            <button class="dropbtn">Internet</button>
+            <div class="dropdown-content">
+                <a href="#">Proveedores</a>
+                <a href="#">Asesoria</a>
+            </div>
+        </div>
+
         <div class="dropdown">
             <button class="dropbtn">Arma tu PC</button>
             <div class="dropdown-content">
@@ -51,7 +61,7 @@
             <button class="dropbtn">Contacto</button>
             <div class="dropdown-content">
                 <a href="#">Whatsapp</a>
-                <a href="#">Gmail</a>
+                <a href="#">Email</a>
             </div>
         </div>
     </nav>
@@ -59,14 +69,62 @@
     <main>
         <section>
             <h2>Contenido Principal</h2>
+            <div class="dropdown">
+                <img src="periferico1.jpg" alt="Periférico 1">
+                <div class="dropdown-content">
+                <p>Descripción del Periférico 1</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <img src="periferico2.jpg" alt="Periférico 2">
+                <div class="dropdown-content">
+                <p>Descripción del Periférico 2</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <img src="periferico3.jpg" alt="Periférico 3">
+                <div class="dropdown-content">
+                <p>Descripción del Periférico 2</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <img src="periferico4.jpg" alt="Periférico 4">
+                <div class="dropdown-content">
+                <p>Descripción del Periférico 2</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <img src="periferico5.jpg" alt="Periférico 5">
+                <div class="dropdown-content">
+                <p>Descripción del Periférico 2</p>
+                </div>
+            </div>
+            <br>
+        
             <p align="center"> Este es un ejemplo de contenido en mi página web. </p>
         </section>
     </main>
     <script src="script.js"></script>
+    
+    <div class="footer">
+        <h3>Seguinos en Nuestras Redes</h3>
+        <a href="https://www.linkedin.com">LinkedIn</a>
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://www.instagram.com">Instagram</a>
+        <a href="https://www.twitter.com">Twitter</a>
+    </div>
+
+    <div class="chat-container">
+        <button id="chat-toggle">Chat</button>
+        <div id="chat-box">
+            <!-- Aquí colocarás el contenido del chat, como mensajes, etc. -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
     <footer>
         <p>&copy; 2024 Mi Página Web </p>
     </footer>
 </body>
 </html>
-
-<p></p>
