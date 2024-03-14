@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+
+}
+
+.logo img {
+height: 75px;
+}
+.search-container {
+text-align: center;
+margin-top: auto;
+
+}
+.search-box {
+    width: 300px;
+    height: 40px;
+    padding: 10px 40px 10px 10px; /* Espaciado dentro del campo de búsqueda */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Bordes redondeados */
+    background-image: url('./img/lupa.png'); /* Imagen de la lupa */
+    background-size: 20px; /* Tamaño de la imagen de la lupa */
+    background-position: 95% center; /* Posición de la imagen de la lupa */
+    background-repeat: no-repeat; /* No repetir la imagen */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    background-color: #ff0101;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0 30px; /* Espacio horizontal entre los menús desplegables */
+}
+
+.dropbtn {
+    font-size: 30px;  
+    border: 20px solid rgb(255, 0, 0);
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: inherit;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
