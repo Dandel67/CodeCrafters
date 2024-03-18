@@ -151,3 +151,22 @@ margin-top: auto;
     overflow-y: auto;
     padding: 10px;
 }
+.container {
+    display: flex;
+    justify-content: space-around; /* Esto alinea los elementos horizontalmente y distribuye el espacio de manera uniforme entre ellos */
+}
+.mouse img {
+    height: 75px;
+}
+.teclado img {
+    height: 75px;
+}
+.memoria img {
+    height: 75px;
+}
+.video img {
+    height: 75px;
+}
+.disco img {
+    height: 75px;
+}
