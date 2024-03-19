@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>CodeCrafters</title>
+    <title>CodeCrafters Venta de insumos para PC</title>
     <link rel="icon" href="img/Logo_Codecrafters.png">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeCrafters</title>
     <style>
         .centrado {
             text-align: center;
@@ -22,7 +21,7 @@
         <div class="search-container">
             <form action="/buscar" method="get">
                 <input type="text" name="q" placeholder="Buscar" class="search-box">
-                <button type="button">
+                <button type="submit"> <!-- Cambiado type a submit -->
                     <img src="img/buscar.png" alt="buscar">
                 </button>
             </form>
@@ -55,8 +54,8 @@
                 <a href="#">Gmail</a>
             </div>
         </div>
-        <div>
-            <button type="button" onclick="location.href='pagina_de_registro.html'">Registrarse</button>
+        <div class="dropdown">
+            <button class="dropbtn" type="button" onclick="location.href='pagina_de_registro.html'">Registrarse</button>
         </div>
     </nav>
 
@@ -106,7 +105,7 @@
     </main>
 
     <script src="script.js"></script>
-    
+
     <footer>
         <p>&copy; 2024 Mi Página Web </p>
     </footer>
