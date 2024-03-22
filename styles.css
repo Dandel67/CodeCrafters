@@ -125,7 +125,7 @@ input {
 
 .navbar {
     display: flex;
-    justify-content: center; /* Centra los elementos horizontalmente */
+    justify-content: center; 
     background-color: #ff0101;
     margin-top: -18px;
 }
@@ -133,7 +133,7 @@ input {
 .dropdown {
     position: relative;
     display: inline-block;
-    margin: 0 30px; /* Espacio horizontal entre los menús desplegables */
+    margin: 0 30px; 
 }
 
 .dropbtn {
@@ -183,7 +183,6 @@ input {
     margin: 0 10px;
 }
 
-/* Estilos del Chat Integrado */
 .chat-container {
     position: fixed;
     bottom: 20px;
