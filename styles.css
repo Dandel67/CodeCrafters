@@ -240,6 +240,10 @@ input {
     height: 75px;
 }
 
+.monitor img {
+    height: 75px;
+}
+
 .centrado {
     text-align: center;
 }
