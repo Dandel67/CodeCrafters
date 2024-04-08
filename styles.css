@@ -173,15 +173,22 @@ input {
 .footer {
     background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    text-align: left;
+    padding: 20p;
 }
-
+.footer ul {
+  	list_style:none;
+	margin_left: 0;
+		
+}
 .footer a {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px;
+    text-align: left;
 }
+.footer p{}
+	tex-align:center;
+
 
 .chat-container {
     position: fixed;
