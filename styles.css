@@ -339,3 +339,13 @@ card{
     width:100px;
     border-radius:50%;
 }
+
+h3  {
+    margin-left: 50%;
+}
+
+.iniciar-btn2 {
+    border-radius: 8%;
+    margin-left: 5%;
+    
+}
