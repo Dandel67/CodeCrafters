@@ -21,17 +21,17 @@ body {
 }
 
 .logo img {
-height: 100px;
-width: 100px;
+height: 10vh;
+width: 10vh;
 margin-right: 10px;
 border-radius: 50%;
 margin-right: 10px;
 object-fit: cover;
 }
 .png-image {
-    height: 80px;
+    height: 8vh;
     width: auto;
-    margin-right: -250px; 
+    margin-right: -25%; 
 }
 .container {
 	position: absolute;
@@ -44,14 +44,15 @@ object-fit: cover;
 input {
 	outline: none;
 	box-sizing: border-box;
-	height: 60px;
-	width: 0px;
-	padding: 0 20px;
+	height: 6vh;
+	width: 0;
+	padding: 0 5vw;
 	color: #000;
 	border-radius: 50px;
-	font-size: 20px;
+	font-size: 3vw;
 	border: 1px solid #D50000;
 	transition: all .7s ease;
+
 }
 
 ::placeholder {
@@ -80,7 +81,7 @@ input {
 }
 
 .container:hover input {
-	width: 350px;
+	width: 35vh;
 }
 
 .container:hover i{
@@ -175,10 +176,11 @@ input {
     color: #fff;
     text-align: left;
     padding: 20p;
+    font-size: 14px;
 }
 .footer ul {
-  	list_style:none;
-	margin_left: 0;
+    list-style:none;
+	margin-left: 0;
 		
 }
 .footer a {
@@ -186,9 +188,9 @@ input {
     text-decoration: none;
     text-align: left;
 }
-.footer p{}
-	tex-align:center;
-
+.footer p{
+	text-align:center;
+}
 
 .chat-container {
     position: fixed;
@@ -201,9 +203,9 @@ input {
     color: #fff;
     border: none;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
+    width: 5vw;
+    height: 60vh;
+    font-size: 2vw;
     cursor: pointer;
     outline: none;
 }
