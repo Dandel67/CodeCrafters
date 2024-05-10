@@ -13,3 +13,6 @@ Darle funcionalidad al footer (Opcional) ya que no tenemos redes pero podriamos 
 Modificaciones a la pagina de productos, agregar productos especificados dentro de el index (camperas, hardware, perifericos, etc) y sidebar con filter.
 
 Modificacion al sector "contacto"
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/22ed76b3-8be3-4269-bc3b-304082853a83/deploy-status)](https://app.netlify.com/sites/thecodecrafters/deploys)
