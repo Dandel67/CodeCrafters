@@ -1,7 +1,8 @@
 .camperas {
     width: 20%; /* Ajusta el ancho de cada elemento según tu diseño */
-    margin: 20px 30px; /* Espacio entre los elementos */
+    margin-top: 30px; /* Espacio entre los elementos */
     margin-right: 80px;
+    margin-left: 25px;
     display: inline-block; /* Para mostrar los elementos en línea */
     /* float: left; */ /* Alternativamente, puedes usar float para hacer que los elementos floten a la izquierda */
 }
