@@ -12,3 +12,7 @@ body {
     padding: 10px;
     z-index: 8;
 }
+
+div{
+    text-align: center;
+}
