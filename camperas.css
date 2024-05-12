@@ -8,7 +8,7 @@
 /* Para asegurarte de que no haya espacios entre los elementos */
 body {
     font-family: Arial, sans-serif;
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding: 20px;
     z-index: 8;
 }
