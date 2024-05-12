@@ -13,6 +13,10 @@ body {
     z-index: 8;
 }
 
-div{
+h3{
+    text-align: center;
+}
+
+.price{
     text-align: center;
 }
