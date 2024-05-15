@@ -1,5 +1,5 @@
 Este el trabajo práctivo del grupo "CodeCrafters".
-Es una app de venta de perifericos de PC y venta y asesoramiento de servicios de internet, que posee las siguiente funcionalidades:
+Es una app de venta de perifericos de PC, de internet y algo más, que posee las siguiente funcionalidades:
 Da una breve descripción del producto al apoyar el mouse sobre la imagen del mismo, se puede ampliar la lista de compras, tiene un buscador de productos, da la opción de carrito de compras, tiene una opción de solicitud de ayuda y tiene los links a nuestras redes sociales.
 La primera página es un login que tiene una formulario de Usuario (Momentaneo): Admin o email: admin@admin. Con un PASSWORD: Admin. Cualquier otra clave, genera un alerta y no permite avanzar.
 Tiene una página de registro con datos básico, pero sin creación de PASSWORD, porque la versión final esperamos que utilice una herramienta de captura de firma que todavía está en desarrollo.
