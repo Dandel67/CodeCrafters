@@ -181,6 +181,18 @@ th, td {
     transition: transform 0.5s ease;
 }
 
+.error-message {
+    display: none; 
+    color: #ff0000; 
+    background-color: transparent; 
+    border: 1px solid #ff0000; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    text-align: center; 
+    font-size: 0.9em; 
+}
+
 .slide {
     flex: 0 0 auto;
     width: 100%;

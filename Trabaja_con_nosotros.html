@@ -61,103 +61,130 @@
         </div>
     </header>
 
-    <main class="cuerpo">
-        <div class="contenidocontacto">
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Bolsa de Trabajo</title>
+        <style>
+            .error { color: red; display: none; }
+        </style>
+    </head>
+    <body>
 
-            <h1>Bolsa de trabajo de CodeCrafters</h1>
-
-            <h3 class>¡Sumate a nuestro equipo, te estamos esperando!</h3><br>
-
-            <div class="contact-wrapper animated bounceInUp">
-                <div class="contact-form">
-                    <h3>Datos Personales</h3>
-                    <form action="#">
-                        <p>
-                            <label>Nombre</label>
-                            <input type="text" name="fullname" required>
-                        </p>
-                        <p>
-                            <label>Apellido</label>
-                            <input type="text" name="lastname" required>
-                        </p>
-                        <p>
-                            <label>E-mail</label>
-                            <input type="email" name="email" required>
-                        </p>
-                        <p>
-                            <label>Celular</label>
-                            <input type="tel" name="phone" required>
-                        </p>
-                        <p>
-                            <label>D.N.I</label>
-                            <input type="tel" name="DNI" required>
-                        </p>
-                        <p>
-                            <label>Nacimiento</label>
-                            <input class="date" type="date" name="fecha" required>
-                        </p>
-                        <p>
-                            <label>Estudios</label>
-                            <input type="text" name="affair" required>
-                        </p>
-                    </form>
-
+        <main class="cuerpo">
+            <div class="contenidocontacto">
+    
+                <h1>Bolsa de trabajo de CodeCrafters</h1>
+    
+                <h3>¡Sumate a nuestro equipo, te estamos esperando!</h3><br>
+    
+                <div class="contact-wrapper animated bounceInUp">
                     <div class="contact-form">
-                        <h3>Domicilio</h3>
-                        <form action="#">
+                        <h3>Datos Personales</h3>
+                        <form id="personalForm">
                             <p>
-                                <label>Ciudad</label>
-                                <input type="text" name="ciudad" required>
+                                <label>Nombre</label>
+                                <input type="text" name="fullname" required>
+                                <span class="error" id="fullnameError">Por favor, ingrese su nombre.</span>
                             </p>
                             <p>
-                                <label>Calle</label>
-                                <input type="text" name="calle" required>
+                                <label>Apellido</label>
+                                <input type="text" name="lastname" required>
+                                <span class="error" id="lastnameError">Por favor, ingrese su apellido.</span>
                             </p>
                             <p>
-                                <label>Número</label>
-                                <input type="tel" name="Nro" required>
+                                <label>E-mail</label>
+                                <input type="email" name="email" required>
+                                <span class="error" id="emailError">Por favor, ingrese un email válido.</span>
                             </p>
                             <p>
-                                <label>Dpto/Piso</label>
-                                <input type="tel" name="Dpto" required>
+                                <label>Celular</label>
+                                <input type="tel" name="phone" required>
+                                <span class="error" id="phoneError">Por favor, ingrese su número de celular.</span>
                             </p>
                             <p>
-                                <label>Codido postal</label>
-                                <input type="text" name="c.p" required>
+                                <label>D.N.I</label>
+                                <input type="tel" name="DNI" required>
+                                <span class="error" id="DNIError">Por favor, ingrese su D.N.I.</span>
                             </p>
                             <p>
-                                <label>Adjunta tu C.V</label>
-                                <input type="file" name="c.v" required>
+                                <label>Nacimiento</label>
+                                <input class="date" type="date" name="fecha" required>
+                                <span class="error" id="fechaError">Por favor, ingrese su fecha de nacimiento.</span>
+                            </p>
+                            <p>
+                                <label>Estudios</label>
+                                <input type="text" name="affair" required>
+                                <span class="error" id="affairError">Por favor, ingrese su nivel de estudios.</span>
                             </p>
                         </form>
+    
+                        <div class="contact-form">
+                            <h3>Domicilio</h3>
+                            <form id="addressForm">
+                                <p>
+                                    <label>Ciudad</label>
+                                    <input type="text" name="ciudad" required>
+                                    <span class="error" id="ciudadError">Por favor, ingrese su ciudad.</span>
+                                </p>
+                                <p>
+                                    <label>Calle</label>
+                                    <input type="text" name="calle" required>
+                                    <span class="error" id="calleError">Por favor, ingrese su calle.</span>
+                                </p>
+                                <p>
+                                    <label>Número</label>
+                                    <input type="tel" name="Nro" required>
+                                    <span class="error" id="NroError">Por favor, ingrese su número.</span>
+                                </p>
+                                <p>
+                                    <label>Dpto/Piso</label>
+                                    <input type="tel" name="Dpto" required>
+                                    <span class="error" id="DptoError">Por favor, ingrese su departamento o piso.</span>
+                                </p>
+                                <p>
+                                    <label>Codido postal</label>
+                                    <input type="text" name="c.p" required>
+                                    <span class="error" id="cpError">Por favor, ingrese su código postal.</span>
+                                </p>
+                                <p>
+                                    <label>Adjunta tu C.V</label>
+                                    <input type="file" name="c.v" required>
+                                    <span class="error" id="cvError">Por favor, adjunte su C.V.</span>
+                                </p>
+                            </form>
+                        </div>
+    
+                        <div class="contact-form">
+                            <h3>Disponibilidad Horaria</h3>
+                            <form id="availabilityForm">
+                                <p>
+                                    <label>Turno</label>
+                                    <select class="custom" required>
+                                        <option value="" selected> Seleccione una opción</option>
+                                        <option value="1">Turno Mañana</option>
+                                        <option value="2">Turno Tarde</option>
+                                        <option value="3">Turno Noche</option>
+                                    </select>
+                                    <span class="error" id="turnoError">Por favor, seleccione un turno.</span>
+                                </p>
+                                <p class="block">
+                                    <button type="button" id="submitButton">Enviar</button>
+                                </p>
+                            </form>
+                        </div>
+    
                     </div>
-
-                    <div class="contact-form">
-                        <h3>Disponibilidad Horaria</h3>
-                        <form action="#">
-                            <p>
-                                <label></label>
-                                <select class="custom">
-                                    <option value="1">Turno Mañana</option>
-                                    <option value="2" selected>Turno tarde</option>
-                                    <option value="3">Turno Noche</option>
-                                </select>
-                                <input type="text" name="ciudad" required>
-                            </p>
-
-                            <p class="block">
-                                <button>
-                                    Enviar
-                                </button>
-                            </p>
-                        </form>
-                    </div>
-
+    
                 </div>
-
             </div>
-        </div>
-    </main>
+        </main>
+        <script src="validator.js"></script>
+    </body>
+    </html>
+    
 
 
     <footer class="footer">
@@ -232,7 +259,7 @@
         <i class="fas fa-user"></i> Login
     </button>
 
-    <script src="script5.js"></script>
+    <script src="./trabajaconnosotros.js"></script>
 
 </body>
 

@@ -22,7 +22,6 @@ body {
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
     padding: 0 1.5em;
-    background-image: url(./imgtc/desarrollo-de-videojuegos-sin-programacion.jpg);
 }
 
 .contenidocontacto { 
@@ -30,6 +29,18 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
+}
+
+.error-message {
+    display: none; 
+    color: #ff0000; 
+    background-color: transparent; 
+    border: 1px solid #ff0000; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    text-align: center; 
+    font-size: 0.9em; 
 }
 
 ul {
