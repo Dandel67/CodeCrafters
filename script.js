@@ -332,4 +332,7 @@ passwordInputs.forEach(addInputEvents);
 function isValidEmail(email) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
-
+// funcion panel
+document.querySelector('.btn-panel').addEventListener('click', function() {
+    window.location.href = 'panel.html';
+})
